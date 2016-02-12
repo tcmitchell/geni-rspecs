@@ -1,0 +1,23 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3"
+       xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1"
+       xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1"
+       xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.geni.net/resources/rspec/3
+                           http://www.geni.net/resources/rspec/3/request.xsd"
+       type="request">
+  <node xmlns="http://www.geni.net/resources/rspec/3"
+        client_id="node-0"
+        component_manager_id="urn:publicid:IDN+apt.emulab.net+authority+cm">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"
+          url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type xmlns="http://www.geni.net/resources/rspec/3"
+                 name="emulab-xen">
+      <disk_image xmlns="http://www.geni.net/resources/rspec/3"
+                  name="urn:publicid:IDN+apt.emulab.net+image+CHAPI-PG0:CentOS7109Feb2016"
+                  url="https://www.apt.emulab.net/image_metadata.php?uuid=acdf309f-cf52-11e5-9986-bdbdba4fe610"/>
+    </sliver_type>
+    <services xmlns="http://www.geni.net/resources/rspec/3"/>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+  </node>
+</rspec>
