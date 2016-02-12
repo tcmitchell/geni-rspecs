@@ -1,0 +1,13 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3"
+       xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.geni.net/resources/rspec/3 http://www.geni.net/resources/rspec/3/request.xsd"
+       type="request">
+  <node client_id="genilib"
+        component_manager_id="urn:publicid:IDN+apt.emulab.net+authority+cm">
+    <sliver_type name="default-vm">
+      <disk_image name="urn:publicid:IDN+apt.emulab.net+image+emulab-ops:CENTOS71-64-STD"/>
+      <emulab:xen cores="4" ram="4096"/>
+    </sliver_type>
+  </node>
+</rspec>
