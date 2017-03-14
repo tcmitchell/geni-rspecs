@@ -16,6 +16,7 @@
       <disk_image xmlns="http://www.geni.net/resources/rspec/3"
                   name="urn:publicid:IDN+apt.emulab.net+image+CHAPI-PG0:CentOS7109Feb2016"
                   url="https://www.apt.emulab.net/image_metadata.php?uuid=acdf309f-cf52-11e5-9986-bdbdba4fe610"/>
+      <emulab:xen cores="4" ram="4096"/>
     </sliver_type>
     <services xmlns="http://www.geni.net/resources/rspec/3"/>
     <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
